@@ -1,0 +1,1 @@
+<label for="pte" style="text-align: center;"><input type="checkbox" name="pte" value="Y">&nbsp;I&nbsp;grant&nbsp;permission&nbsp;to&nbsp;enter&nbsp;my&nbsp;unit.</label>

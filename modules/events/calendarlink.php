@@ -1,0 +1,1 @@
+<a href="../modules/events/ics.php?int1=<?php echo "{$rowMOD['int1']}"; ?>"><img src="https://condosites.net/commons/icsCalendar.png" alt="Add this event to your Outlook, iCal, Yahoo!, or other calendar (.ics format)" title="Add this event to your Outlook, iCal, Yahoo!, or other calendar (.ics format)" border=0></a>

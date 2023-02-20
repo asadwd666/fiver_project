@@ -1,0 +1,1 @@
+<?php include('splash/index-custom.php'); ?>

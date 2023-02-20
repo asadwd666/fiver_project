@@ -1,0 +1,609 @@
+/*
+ -------------
+     CONTROL PANELS
+ ---------------
+ */
+html {
+  font-family: sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+p {
+    margin-bottom: .75rem;
+}
+
+.cp-help p {
+    font-size: .9rem;
+    margin-bottom: 1.25rem;
+}
+
+.cp-form-container {
+    background: #FAFAF0;
+    display: table;
+    width: 100%;
+    padding: 20px;
+}
+
+.row-form-cp {
+    background-color: #EEEDDD;
+    width: 100%;
+    color: black;
+}
+
+.health-red {
+    font-size: .7rem;
+    color: #990000;
+    font-weight: bold;
+}
+
+.health-orange {
+    font-size: .7rem;
+    color: orange;
+    font-weight: bold;
+}
+
+.stand-alone-page .controlpanel-header {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    background: #3A474D;
+    /* For Safari 5.1 to 6.0 */
+    background: -webkit-linear-gradient(bottom, #546066, #324047);
+    /* For Opera 11.1 to 12.0 */
+    background: -o-linear-gradient(bottom, #546066, #324047);
+    /* For Firefox 3.6 to 15 */
+    background: -moz-linear-gradient(bottom, #546066, #324047);
+    /* Standard syntax */
+    background: linear-gradient(to bottom, #546066, #324047);
+    color: white;
+}
+
+.stand-alone-page .controlpanel-content {
+    padding-top: 36px;
+}
+
+@media screen and (max-width: 800px) {
+    .stand-alone-page .controlpanel-content {
+        padding-top: 50px;
+    }
+}
+
+.cp-icons {
+    height: 125px;
+    width: 20%;
+}
+
+@media screen and (max-width: 799px) {
+    .cp-icons {
+        height: 150px;
+        width: 33%;
+
+    }
+}
+
+.cp-icons-help {
+    height: 125px;
+    width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+    .cp-icons-help {
+        height: 150px;
+        width: 100%;
+
+    }
+}
+
+.nav-section-header-cp {
+    margin: 0px;
+    padding: 10px;
+    color: white;
+    background-color: #3A474D;
+}
+
+.nav-section-header-help-cp {
+    margin: 0px;
+    padding: 10px;
+    color: white;
+    background-color: #007799;
+}
+
+.nav-section-header-help-cp a {
+    color: white;
+}
+
+.nav-section-header-cp {
+    margin: 0px;
+    padding: 10px;
+    color: white;
+    background-color: #3A474D;
+}
+
+.nav-section-header-help-video-cp {
+    margin: 0px;
+    padding: 10px;
+    color: black;
+    background-color: #d6ebee;
+}
+
+.nav-section-header-help-video-cp a {
+    color: black;
+}
+
+.nav-section-header-billing-cp {
+    margin: 0px;
+    padding: 10px;
+    color: white;
+    background-color: #3A474D;
+}
+
+.nav-section-header-billing-cp a {
+    color: white;
+}
+
+.nav-section-header-health-cp {
+    margin: 0px;
+    padding: 10px;
+    color: black;
+    background-color: #EEEDDD;
+}
+
+@media screen and (max-width: 500px) {
+    .nav-section-header-health-cp {
+        margin-top: -17px;
+    }
+}
+
+.nav-section-title-cp {
+    margin: 0px;
+    padding: 00px;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.nav-section-body-cp {
+    margin: 0px;
+    padding: 10px;
+    color: black;
+    background-color: #ffffff;
+}
+
+.nav-section-body-help-cp {
+    margin: 0px;
+    padding: 10px;
+    color: black;
+    background-color: #d6ebee;
+}
+
+/*
+ -------------
+     CONTROL PANELS - NEWSBOARD ARTICLE RIBBONS
+ ---------------
+ */
+
+.cp-ribbon {
+    font-size: 12px;
+    text-align: center;
+    text-shadow: rgba(80, 80, 80, 0.75) 0px 1px 1px;
+    position: relative;
+    padding: 7px 0px;
+    margin: 10px;
+    width: 120px;
+    color: white;
+    z-index: 10;
+    -webkit-box-shadow: -5px 3px 5px rgba(0, 0, 0, .5);
+    -moz-box-shadow: -5px 3px 5px rgba(0, 0, 0, .5);
+    box-shadow: -5px 3px 5px rgba(0, 0, 0, .5);
+}
+
+/*
+ -------------
+     CONTROL PANELS - FONT AWESOME
+ ---------------
+ */
+
+.fa.fa-exclamation-triangle.red {
+    color: #d71920;
+    font-size: 2rem;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    margin-left: -15px;
+    margin-right: 0px;
+    text-shadow:
+    -1px -1px 0 #ffffff,
+    1px -1px 0 #ffffff,
+    -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff;
+}
+
+.fa.fa-exclamation-triangle.orange {
+    color: darkorange;
+    font-size: 2rem;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    margin-left: -15px;
+    margin-right: 0px;
+    text-shadow:
+    -1px -1px 0 #ffffff,
+    1px -1px 0 #ffffff,
+    -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff;
+}
+
+.fa.fa-ban {
+    color: red;
+    font-size: 1rem;
+}
+
+.fa.fa-check.green {
+    color: green;
+    font-size: 2rem;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    margin-left: -12px;
+    margin-right: 0px;
+}
+
+.fa.fa-blind.cp {
+    color: #3A474D;
+    font-size: 3rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fa.fa-bicycle.cp {
+    color: #3A474D;
+    font-size: 3rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fa.fa-exclamation-triangle.cp {
+    color: #3A474D;
+    font-size: 3rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fa.fa-building-o.cp {
+    color: #3A474D;
+    font-size: 3rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fa.fa-bullhorn.cp {
+    color: #3A474D;
+    font-size: 3rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fa.fa-calendar.cp {
+    color: #3A474D;
+    font-size: 3rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fa.fa-car.cp {
+    color: #3A474D;
+    font-size: 3rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fa.fa-check-square-o.cp {
+    color: #3A474D;
+    font-size: 3rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fa.fa-code.cp {
+    color: #3A474D;
+    font-size: 3rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fa.fa-cubes.cp {
+    color: #3A474D;
+    font-size: 3rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fa.fa-database.cp {
+    color: #3A474D;
+    font-size: 3rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fa.fa-envelope-o.cp {
+    color: #3A474D;
+    font-size: 3rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fa.fa-envelope.cp {
+    color: #3A474D;
+    font-size: 3rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fa.fa-envelope-o.red {
+    color: red;
+    font-size: 1rem;
+}
+
+.fa.fa-envelope-o.green {
+    color: green;
+    font-size: 1rem;
+}
+
+.fa.fa-external-link.cp {
+    color: #3A474D;
+    font-size: 3rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fa.fa-file.cp {
+    color: #3A474D;
+    font-size: 3rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fa.fa-file-o.cp {
+    color: #3A474D;
+    font-size: 3rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fa.fa-film.cp {
+    color: #3A474D;
+    font-size: 3rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fa.fa-folder.cp {
+    color: #3A474D;
+    font-size: 3rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fa.fa-gift.cp {
+    color: #3A474D;
+    font-size: 3rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fa.fa-hand-o-right.cp {
+    color: black;
+    font-size: 1.5rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fa.fa-hand-o-left.cp {
+    color: black;
+    font-size: 1.5rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fa.fa-hand-o-up.cp {
+    color: black;
+    font-size: 1.5rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fa.fa-hand-o-down.cp {
+    color: black;
+    font-size: 1.5rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fa.fa-hand-paper-o.cp {
+    color: black;
+    font-size: 3rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fa.fa-home.cp {
+    color: #3A474D;
+    font-size: 3rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fa.fa-id-badge.cp {
+    color: #3A474D;
+    font-size: 3rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fa.fa-id-card.cp {
+    color: #3A474D;
+    font-size: 3rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fa.fa-id-card-o.cp {
+    color: #3A474D;
+    font-size: 3rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fa.fa-id-check-square-o.cp {
+    color: #3A474D;
+    font-size: 3rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fa.fa-home.cp {
+    color: #3A474D;
+    font-size: 3rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fa.fa-laptop.cp {
+    color: #3A474D;
+    font-size: 3rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fa.fa-list-alt.cp {
+    color: #3A474D;
+    font-size: 3rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fa.fa-newspaper-o.cp {
+    color: #3A474D;
+    font-size: 3rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fa.fa-paw.cp {
+    color: #3A474D;
+    font-size: 3rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fa.fa-phone.red {
+    color: red;
+    font-size: 1rem;
+}
+
+.fa.fa-phone.green {
+    color: green;
+    font-size: 1rem;
+}
+
+.fa.fa-pencil.cp {
+    color: #3A474D;
+    font-size: 3rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.fa.fa-blind.cp {
+    color: #3A474D;
+    font-size: 3rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fa.fa-print.cp {
+    color: #3A474D;
+    font-size: 3rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fa.fa-question.cp {
+    color: #3A474D;
+    font-size: 3rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fa.fa-shower.cp {
+    color: #3A474D;
+    font-size: 3rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fa.fa-sliders.cp {
+    color: #3A474D;
+    font-size: 3rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fa.fa-television.cp {
+    color: #3A474D;
+    font-size: 3rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fa.fa-usd.cp {
+    color: #3A474D;
+    font-size: 3rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fa.fa-users.cp {
+    color: #3A474D;
+    font-size: 3rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fa.fa-wrench.cp {
+    color: #3A474D;
+    font-size: 3rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*
+ -------------
+     DISPLAY BEZEL
+ ---------------
+ */
+
+.display-bezel-large {
+    border-width: 10px;
+    border-style: solid;
+    background-color: black;
+    background-image: url('https://condosites.net/images/CondoSites-White.png');
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.display-bezel-medium {
+    border-width: 7px;
+    border-style: solid;
+    background-color: black;
+    background-image: url('https://condosites.net/images/CondoSites-White.png');
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.display-bezel-small {
+    border-width: 5px;
+    border-style: solid;
+    background-color: black;
+    background-image: url('https://condosites.net/images/CondoSites-White.png');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+}

@@ -1,0 +1,2 @@
+        var location = "38472_PC";
+        var key = "aYzNjdvuRJFKA9j85emdmksfsxv33jPh";

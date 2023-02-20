@@ -1,0 +1,15 @@
+<?php if ($row1['type'] == 'application/pdf'){ ?><img alt="" src="https://condosites.net/commons/pdf.png" style="border: 0px solid;" border="0"><?php }; ?>
+<?php if ($row1['type'] == 'image/jpeg'){ ?><img alt="" src="https://condosites.net/commons/pictures.png" style="border: 0px solid;" border="0"><?php }; ?>
+<?php if ($row1['type'] == 'image/pjpeg'){ ?><img alt="" src="https://condosites.net/commons/pictures.png" style="border: 0px solid;" border="0"><?php }; ?>
+<?php if ($row1['type'] == 'image/gif'){ ?><img alt="" src="https://condosites.net/commons/pictures.png" style="border: 0px solid;" border="0"><?php }; ?>
+<?php if ($row1['type'] == 'image/png'){ ?><img alt="" src="https://condosites.net/commons/pictures.png" style="border: 0px solid;" border="0"><?php }; ?>
+<?php if ($row1['type'] == 'application/rtf'){ ?><img alt="" src="https://condosites.net/commons/txt.png" style="border: 0px solid;" border="0"><?php }; ?>
+<?php if ($row1['type'] == 'text/plain'){ ?><img alt="" src="https://condosites.net/commons/txt.png" style="border: 0px solid;" border="0"><?php }; ?>
+<?php if ($row1['type'] == 'text/html'){ ?><img alt="" src="https://condosites.net/commons/txt.png" style="border: 0px solid;" border="0"><?php }; ?>
+<?php if ($row1['type'] == 'application/vnd.openxmlformats'){ ?><img alt="" src="https://condosites.net/commons/word.png" style="border: 0px solid;" border="0"><?php }; ?>
+<?php if ($row1['type'] == 'application/msword'){ ?><img alt="" src="https://condosites.net/commons/word.png" style="border: 0px solid;" border="0"><?php }; ?>
+<?php if ($row1['type'] == 'application/vnd.ms-excel'){ ?><img alt="" src="https://condosites.net/commons/excel.png" style="border: 0px solid;" border="0"><?php }; ?>
+<?php if ($row1['type'] == 'application/download'){ ?><img alt="" src="https://condosites.net/commons/other.png" style="border: 0px solid;" border="0"><?php }; ?>
+<?php if ($row1['type'] == 'application/octet-stream'){ ?><img alt="" src="https://condosites.net/commons/txt.png" style="border: 0px solid;" border="0"><?php }; ?>
+<?php if ($row1['type'] == 'application/zip'){ ?><img alt="" src="https://condosites.net/commons/zip.png" style="border: 0px solid;" border="0"><?php }; ?>
+<?php if ($row1['type'] == 'video/mp4'){ ?><img alt="" src="https://condosites.net/commons/mp4.png" style="border: 0px solid;" border="0"><?php }; ?>

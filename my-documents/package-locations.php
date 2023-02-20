@@ -1,0 +1,1 @@
+Come to the Front Desk at your convenience to pick up your delivery.

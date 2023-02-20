@@ -1,0 +1,284 @@
+
+
+
+/* 
+  ----------------------
+    CALENDAR
+ ------------------------
+ */
+
+#calendar {
+    width: 100%;
+    clear: both;
+}
+
+#calendar-wrap .keys {
+    clear: both;
+    margin-top: 10px;
+}
+
+#calendar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.clearfix:after {
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+#calendar-wrap header .keys ul {
+    list-style-type: none;
+    margin-bottom: 24px;
+    margin-top: -10px;
+}
+
+#calendar-wrap header .keys ul .key {
+    float: right;
+    font-size: .75rem;
+    margin-right: 8px;
+    display: block;
+}
+
+#calendar-wrap header .keys ul .key:before {
+    height: 12px;
+    display: inline-block;
+    position: relative;
+    top: 1px;
+    content: "";
+    width: 12px;
+    margin-right: 2px;
+}
+
+#calendar-wrap header .keys ul .key.key__Construction:before {
+    background-color: #EFC6AA;
+}
+
+#calendar-wrap header .keys ul .key.key__Elevator:before {
+    background-color: #D4AAEF;
+}
+
+#calendar-wrap header .keys ul .key.key__Meeting:before {
+    background-color: #EFAAB3;
+}
+
+#calendar-wrap header .keys ul .key.key__Reserved:before {
+    background-color: #BBB99F;
+}
+
+#calendar-wrap header .keys ul .key.key__Event:before {
+    background-color: #AAEFC6;
+}
+
+#calendar-wrap header .keys ul .key.key__Social:before {
+    background-color: #efeeaa;
+}
+
+#calendar-wrap header .keys ul .key.key__Sport:before {
+    background-color: #aaeeef;
+}
+
+#calendar-wrap header .keys ul .key.key__Holiday:before {
+    background-color: #d9dcdc;
+}
+
+#calendar-wrap header .keys ul .key.key__Class:before {
+    background-color: #eeaaef;
+}
+
+#calendar-wrap header .keys ul .key.key__Town:before {
+    background-color: #AAC1EF;
+}
+
+#calendar-wrap header .keys ul .key.key__Other:before {
+    background-color: #CFCFCF;
+}
+
+#calendar li {
+    display: block;
+    float: left;
+    width: 14.2857%;
+    box-sizing: border-box;
+    margin-bottom: -1px;
+}
+
+#calendar .weekdays {
+    height: 30px;
+    text-align: center;
+    line-height: 20px;
+    padding: 5px 6px;
+    color: #fff;
+    font-size: .75rem;
+    background: #423F3E;
+    margin: 1px;
+    color: white;
+}
+
+#calendar .date {
+    text-align: center;
+    margin-bottom: 12px;
+    border-left: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+    width: 20px;
+    float: right;
+}
+
+#calendar .event {
+    clear: both;
+    display: block;
+    font-size: .9rem;
+    padding: 5px;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-bottom: 2px;
+    line-height: 14px;
+    background: #e4f2f2;
+    color: #000000;
+    text-decoration: none;
+}
+
+#calendar .event.event__none {
+    background-color: transparent;
+    font-style: italic;
+    text-align: center;
+    color: black;
+}
+
+#calendar .event.event__Construction {
+    background-color: #EFC6AA;
+}
+
+#calendar .event.event__Elevator {
+    background-color: #D4AAEF;
+}
+
+#calendar .event.event__Meeting {
+    background-color: #EFAAB3;
+}
+
+#calendar .event.event__Reserved {
+    background-color: #BBB99F;
+}
+
+#calendar .event.event__Event {
+    background-color: #AAEFC6;
+}
+
+#calendar .event.event__Social {
+    background-color: #efeeaa;
+}
+
+#calendar .event.event__Sport {
+    background-color: #aaeeef;
+}
+
+#calendar .event.event__Holiday {
+    background-color: #d9dcdc;
+}
+
+#calendar .event.event__Class {
+    background-color: #eeaaef;
+}
+
+#calendar .event.event__Town {
+    background-color: #AAC1EF;
+}
+
+#calendar .event.event__Other {
+    background-color: #CFCFCF;
+}
+
+#calendar .event-desc a {
+    color: black;
+}
+
+.calendar-view-full {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.calendar-view-full a {
+    font-size: .7rem;
+    color: black;
+}
+
+.calendar-view-full a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.calendar-container.calendar-container__event .row {
+    margin: 10px;
+
+}
+
+.calendar-container.calendar-container__event .event-title a {
+    color: black;
+}
+
+.calendar-container.calendar-container__event a:hover {
+    text-decoration: underline;
+}
+
+.calendar-container.calendar-container__event .event-date a {
+    color: black;
+}
+
+.calendar-container.calendar-container__event .event-title p {
+    font-size: .9rem;
+    padding-left: 25px;
+    padding-bottom: 5px;
+    list-style-type: none;
+}
+
+.calendar-container.calendar-container__event .event-date p {
+    font-size: .8rem;
+    position: relative;
+    top: 6px;
+    color: black;
+}
+
+/* Calendar - List View */
+.calendar-container-list-view.calendar-container__event .row {
+    margin: 10px;
+
+}
+
+.calendar-container-list-view.calendar-container__event .event-title a {
+    color: black;
+}
+
+.calendar-container-list-view.calendar-container__event a:hover {
+    text-decoration: underline;
+}
+
+.calendar-container-list-view.calendar-container__event .event-date a {
+    color: black;
+}
+
+.calendar-container-list-view.calendar-container__event .event-title p {
+    font-size: .9rem;
+    padding-left: 25px;
+    padding-bottom: 5px;
+    list-style-type: none;
+}
+
+.calendar-container-list-view.calendar-container__event .event-date p {
+    font-size: .8rem;
+    position: relative;
+    top: 6px;
+    left: inherit;
+    color: black;
+}
+.calendar-container-list-view.calendar-container__event .event-time p {
+    font-size: .8rem;
+    position: relative;
+    top: 6px;
+    left: inherit;
+    color: black;
+}

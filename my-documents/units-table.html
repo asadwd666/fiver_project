@@ -1,0 +1,8 @@
+<!-- UNIT FIELD -->
+<input name="unit" type="text" class="form form-split-left" id="unit" maxlength="4" placeholder="1234" value="<?php echo($_SESSION['unit']); ?>">
+
+<!-- UNIT2 FIELD -->
+<select name="unit2" class="form form-split-right">
+<option value="">Select Building</option>
+<option value="1" <?php if($_SESSION['unit2'] == "1"){ echo("SELECTED"); } ?>>Building 1</option>
+</select>

@@ -1,0 +1,35 @@
+/**** CUSTOMIZATIONS ****/
+
+.background {
+    background-image: url('../pics/background-display.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #371603;
+}
+.vertical.background {
+    background-image: url('../pics/background-display-vertical.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #371603;
+}
+
+/* NEWSBOARD BANNER */
+
+.mvix .newsboard-banner {
+    background-color: #491f06;
+}
+.mvix.vertical .newsboard-banner {
+    background-color: #491f06;
+}
+
+/* SLIDER SECTIONS */
+
+.mvix .slider #calendar .weekdays {
+    background-color: #491f06;
+}
+
+/* FOOTER */
+
+.mvix.footer {
+    background-color: #491f06;
+}

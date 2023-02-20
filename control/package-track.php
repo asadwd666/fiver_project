@@ -1,0 +1,23 @@
+<!-- PACKAGES -->
+<?php if ($row['packagetype'] == 'UPS Package'){ ?><a href="http://wwwapps.ups.com/WebTracking/processRequest?HTMLVersion=5.0&Requester=NES&AgreeToTermsAndConditions=yes&loc=en_US&tracknum=<?php echo "{$row['pkgtracking']}"; ?>" target="_blank"><?php echo "{$row['pkgtracking']}"; ?></a><?php }; ?>
+<?php if ($row['packagetype'] == 'UPS Express Package'){ ?><a href="http://wwwapps.ups.com/WebTracking/processRequest?HTMLVersion=5.0&Requester=NES&AgreeToTermsAndConditions=yes&loc=en_US&tracknum=<?php echo "{$row['pkgtracking']}"; ?>" target="_blank"><?php echo "{$row['pkgtracking']}"; ?></a><?php }; ?>
+<?php if ($row['packagetype'] == 'UPS Ground Package'){ ?><a href="http://wwwapps.ups.com/WebTracking/processRequest?HTMLVersion=5.0&Requester=NES&AgreeToTermsAndConditions=yes&loc=en_US&tracknum=<?php echo "{$row['pkgtracking']}"; ?>" target="_blank"><?php echo "{$row['pkgtracking']}"; ?></a><?php }; ?>
+<?php if ($row['packagetype'] == 'FedEx Package'){ ?><a href="http://www.fedex.com/Tracking?action=track&tracknumbers=<?php echo "{$row['pkgtracking']}"; ?>" target="_blank"><?php echo "{$row['pkgtracking']}"; ?></a><?php }; ?>
+<?php if ($row['packagetype'] == 'FedEx Express Package'){ ?><a href="http://www.fedex.com/Tracking?action=track&tracknumbers=<?php echo "{$row['pkgtracking']}"; ?>" target="_blank"><?php echo "{$row['pkgtracking']}"; ?></a><?php }; ?>
+<?php if ($row['packagetype'] == 'FedEx Ground Package'){ ?><a href="http://www.fedex.com/Tracking?action=track&tracknumbers=<?php echo "{$row['pkgtracking']}"; ?>" target="_blank"><?php echo "{$row['pkgtracking']}"; ?></a><?php }; ?>
+<?php if ($row['packagetype'] == 'DHL Package'){ ?><a href="http://track.dhl-usa.com/TrackByNbr.asp?ShipmentNumber=<?php echo "{$row['pkgtracking']}"; ?>" target="_blank"><?php echo "{$row['pkgtracking']}"; ?></a><?php }; ?>
+<?php if ($row['packagetype'] == 'Amazon Package'){ ?><a href="http://www.amazon.com/gp/help/customer/display.html?nodeId=201182000" target="_blank">Link to Tracking</a><?php }; ?>
+<?php if ($row['packagetype'] == 'LaserShip Package'){ ?><a href="http://www.lasership.com/track.php?track_number_input=<?php echo "{$row['pkgtracking']}"; ?>" target="_blank"><?php echo "{$row['pkgtracking']}"; ?></a><?php }; ?>
+<?php if ($row['packagetype'] == 'OnTrac Package'){ ?><a href="http://www.ontrac.com/tracking.asp?trackingres=submit&tracking_number=<?php echo "{$row['pkgtracking']}"; ?>" target="_blank"><?php echo "{$row['pkgtracking']}"; ?></a><?php }; ?>
+<?php if ($row['packagetype'] == 'USPS Package'){ ?><a href="http://trkcnfrm1.smi.usps.com/PTSInternetWeb/InterLabelInquiry.do?origTrackNum=<?php echo "{$row['pkgtracking']}"; ?>" target="_blank"><?php echo "{$row['pkgtracking']}"; ?></a><?php }; ?>
+<?php if ($row['packagetype'] == 'USPS Certified Letter'){ ?><a href="http://trkcnfrm1.smi.usps.com/PTSInternetWeb/InterLabelInquiry.do?origTrackNum=<?php echo "{$row['pkgtracking']}"; ?>" target="_blank"><?php echo "{$row['pkgtracking']}"; ?></a><?php }; ?>
+<?php if ($row['packagetype'] == 'USPS Express Mail'){ ?><a href="http://trkcnfrm1.smi.usps.com/PTSInternetWeb/InterLabelInquiry.do?origTrackNum=<?php echo "{$row['pkgtracking']}"; ?>" target="_blank"><?php echo "{$row['pkgtracking']}"; ?></a><?php }; ?>
+<?php if ($row['packagetype'] == 'USPS Priority Mail'){ ?><a href="http://trkcnfrm1.smi.usps.com/PTSInternetWeb/InterLabelInquiry.do?origTrackNum=<?php echo "{$row['pkgtracking']}"; ?>" target="_blank"><?php echo "{$row['pkgtracking']}"; ?></a><?php }; ?>
+<?php if ($row['packagetype'] == 'USPS Registered Letter'){ ?><a href="http://trkcnfrm1.smi.usps.com/PTSInternetWeb/InterLabelInquiry.do?origTrackNum=<?php echo "{$row['pkgtracking']}"; ?>" target="_blank"><?php echo "{$row['pkgtracking']}"; ?></a><?php }; ?>
+<!-- DELIVERIES -->
+<?php if ($row['packagetype'] == 'Delivery'){ ?><?php echo "{$row['pkgtracking']}"; ?><?php }; ?>
+<?php if ($row['packagetype'] == 'Dry Cleaning Delivery'){ ?><?php echo "{$row['pkgtracking']}"; ?><?php }; ?>
+<?php if ($row['packagetype'] == 'Flower Delivery'){ ?><?php echo "{$row['pkgtracking']}"; ?><?php }; ?>
+<?php if ($row['packagetype'] == 'Gift'){ ?><?php echo "{$row['pkgtracking']}"; ?><?php }; ?>
+<?php if ($row['packagetype'] == 'Grocery Delivery'){ ?><?php echo "{$row['pkgtracking']}"; ?><?php }; ?>
+<?php if ($row['packagetype'] == 'Video'){ ?><?php echo "{$row['pkgtracking']}"; ?><?php }; ?>

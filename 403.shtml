@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>HTTP Error 403 - Forbidden | CondoSites</title>
+  <meta content="CondoSites - http://www.condosites.com" name="author">
+  <link rel="stylesheet" href="../css/foundation.css" />
+  <link rel="stylesheet" href="../css/app.css" />
+</head>
+<body bgcolor="#ffffff">
+<div class="container">
+
+    <div class="row">
+        <div class="small-12 small-centered medium-uncentered medium-6 large-12 columns">
+            <h1 class="welcome-area-logo">
+                <a href="../index.php"><img src="../pics/logo-small.png"></a>
+            </h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="small-center medium-center large-center columns">
+            <div class="content-splash-main">
+                <div class="row">
+                    <div class="small-12 columns" align="center">
+    <h3>oops!</h3>
+    <br>
+    <b>403 ERROR - Forbidden Access</b><br>Follow this <a href="<!--#echo var="HTTP_REFERER" -->">link</a> to go back,<br>or this <a href="../../../../../../../index.php">link</a> to go to the home page of this site.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

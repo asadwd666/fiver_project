@@ -1,0 +1,1 @@
+<?php if ($row['unit2'] == '1'){ ?>Building 1<?php }; ?>
